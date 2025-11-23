@@ -3,7 +3,7 @@ from routers import user
 
 app = FastAPI()
 
-app.iclude_router(user.router)
+app.include_router(user.router)
 
 @app.get("/")
 async def read_root():

@@ -2,7 +2,7 @@ from http.client import HTTPException
 
 from fastapi import FastAPI, APIRouter
 from schemas.user import User, UserCreate
-from services.user_services import fetch_users, fetch_user_by_id, add_user, delete_user
+from services.user_service import fetch_users, fetch_user_by_id, add_user, delete_user
 
 from typing import List
 
